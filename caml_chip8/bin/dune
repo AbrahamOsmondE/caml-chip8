@@ -1,0 +1,4 @@
+(executable
+ (public_name caml_chip8)
+ (name main)
+ (libraries caml_chip8))
