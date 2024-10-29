@@ -1,2 +1,5 @@
 (library
- (name caml_chip8))
+ (name caml_chip8)
+ (libraries base)
+ (inline_tests)
+ (preprocess (pps ppx_jane)))

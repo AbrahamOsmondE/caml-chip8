@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github abrahamoed/caml-chip8))
 
-(authors "Author Name")
+(authors "Abraham Osmond")
 
-(maintainers "Maintainer Name")
+(maintainers "Abraham Osmond")
 
 (license LICENSE)
 
@@ -17,10 +17,7 @@
 
 (package
  (name caml_chip8)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
+ (synopsis "Chip8 Emulator")
+ (description "A Chip8 Emulator Developed in Ocaml")
+ (depends ocaml dune tsdl base ppx_jane))
 
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

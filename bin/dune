@@ -1,4 +1,5 @@
-(executable
- (public_name caml_chip8)
- (name main)
- (libraries caml_chip8))
+(library
+ (name caml_chil8_test)
+ (libraries caml_chip8)
+ (inline_tests)
+ (preprocess (pps ppx_jane)))
