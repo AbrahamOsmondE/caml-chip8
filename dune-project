@@ -19,5 +19,9 @@
  (name caml_chip8)
  (synopsis "Chip8 Emulator")
  (description "A Chip8 Emulator Developed in Ocaml")
- (depends ocaml dune tsdl base ppx_jane))
+ (depends ocaml dune tsdl base ppx_jane)
+ (tags
+  (topics "to describe" your project))
+ (allow_empty)
+ )
 

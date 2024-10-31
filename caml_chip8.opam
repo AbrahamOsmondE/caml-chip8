@@ -5,6 +5,7 @@ description: "A Chip8 Emulator Developed in Ocaml"
 maintainer: ["Abraham Osmond"]
 authors: ["Abraham Osmond"]
 license: "LICENSE"
+tags: ["topics" "to describe" "your" "project"]
 homepage: "https://github.com/abrahamoed/caml-chip8"
 doc: "https://url/to/documentation"
 bug-reports: "https://github.com/abrahamoed/caml-chip8/issues"
